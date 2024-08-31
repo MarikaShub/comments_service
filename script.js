@@ -16,7 +16,7 @@ button.addEventListener("click", function () {
   // добавляем элемент на страницу
   chatWrapper.append(parentElement);
   //достаем значение имени из поля ввода
-  const nameValue = nameInput.value;
+  const nameValue = nameInput.value.trim();
   //изменяем формат имени под необходимые условия
   const userName =
     nameValue[0].toUpperCase() + nameValue.slice(1).toLowerCase();
@@ -26,7 +26,7 @@ button.addEventListener("click", function () {
   //добавляем имя на страницу
   parentElement.append(nameInChat);
   //достаем значение адреса из поля ввода
-  const avatarUrl = imgUrl.value;
+  const avatarUrl = imgUrl.value.trim();
    //создаем элемент img
   const userAvatar = document.createElement("img");
   //прописываем атрибут с адресом изображения
@@ -38,7 +38,7 @@ button.addEventListener("click", function () {
   //добавляем картинку на страницу
   parentElement.append(userAvatar);
 //достаем значение из поля для комментариев и сразу ставим "антиспам"
-  const commentValue = inputComments.value
+  const commentValue = inputComments.value.trim()
   const comment = commentValue.toLowerCase().replace(/viagra|xxx/gi, '***');
   //создаем элемент для вывода комментария
   const newComment = document.createElement("p");
