@@ -3,9 +3,26 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
    <title>comments_service</title>
 </head>
 <body>
-   
+   <div class="container">
+      <div class="form">
+         <h1>Сервис комментариев со спам фильтром</h1>
+         <label for="input-name">Введите ваше <span>Имя</span>:</label>
+         <input type="text" id="input-name" placeholder="введите Имя">
+         <label for="url">Введите ссылку <span>Вашего аватара</span>:</label>
+        <input type="url"  id="url" placeholder="https://example.com">
+        <label for="comments">Оставьте комментарий</label>
+        <textarea id="comments" ></textarea>
+        <button class="btn">Отправить</button>
+      </div>
+      <div class="chat__wripper">
+         <h2>Чат</h2>
+      
+      </div>
+   </div>
+ <script src="script.js"></script>  
 </body>
 </html>

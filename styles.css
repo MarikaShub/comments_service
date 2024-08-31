@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+body{
+    
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+      background-repeat: no-repeat;
+    
+        font-family: 'Vibur', cursive;
+    /*   the main font */
+        font-family: 'Abel', sans-serif;
+    opacity: .95;
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+    
+}
+.container {
+    width: 100%;
+    max-width: 73.125rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 36px;
+}
+span {
+    font-weight: bold;
+}
+.form, .chat__wripper {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    gap: 15px;
+}
+input, textarea {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+}
+
+
+label, .btn, p {
+    font-size: 24px;
+    font-family: 'Abel', sans-serif;
+    
+}
+.btn {
+    font-weight: bold;
+    color: #252537;
+  
+    width: 280px;
+    height: 50px;
+  
+    padding: 0 20px;
+    background: #61e1db;
+    border-radius: 15px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+
+}
+.btn:hover {
+    transform: translatey(5px);
+    box-shadow: none;
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+.chat {
+    border: 3px solid #eca7de;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
